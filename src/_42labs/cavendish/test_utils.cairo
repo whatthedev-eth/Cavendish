@@ -1,8 +1,11 @@
 %lang starknet
 
+from _42labs.cavendish.time_series.structs import Matrix2D
+
 func log_array(arr_len : felt, arr : felt*):
     %{ print('Array(', end='') %}
     _log_array_iter(0, arr_len, arr)
+    %{ print(')') %}
     return ()
 end
 
@@ -15,7 +18,6 @@ func _log_array_iter(cur_idx, arr_len : felt, arr : felt*):
                 print(')')
             else:
                 print(ids.tmp, end='')
-                print(')')
         %}
         return ()
     else:
@@ -27,4 +29,20 @@ func _log_array_iter(cur_idx, arr_len : felt, arr : felt*):
         %}
         return _log_array_iter(cur_idx + 1, arr_len, arr)
     end
+end
+
+func log_matrix(matrix : Matrix2D):
+    %{ print('Matrix[') %}
+    _log_matrix_iter(0, matrix)
+    %{ print(']') %}
+    return ()
+end
+
+func _log_matrix_iter(idx: felt, matrix: Matrix2D):
+    if idx == matrix.y_dim:
+        return()
+    end
+    %{ print('\t', end='') %}
+    log_array(matrix.x_dim, matrix.m[idx])
+    return _log_matrix_iter(idx + 1, matrix)
 end
