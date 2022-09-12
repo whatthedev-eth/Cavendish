@@ -103,8 +103,8 @@ assert x2 = 1940008856356186113  # 0.8413447460685429
   
 Inspiration was taken from the excellent <b>cairo-streams</b> library by <b>onlydust</b>, and the <b>cairo-math-64x61</b> library by <b>influenceth</b>
 
-    - https://github.com/influenceth/cairo-math-64x61
-    - https://github.com/onlydustxyz/cairo-streams
+- https://github.com/influenceth/cairo-math-64x61
+- https://github.com/onlydustxyz/cairo-streams
     
 As well as numpy, scipy and pandas:
 
