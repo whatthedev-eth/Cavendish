@@ -1,7 +1,7 @@
 %lang starknet
 
 from starkware.cairo.common.alloc import alloc
-from _42labs.cavendish.time_series.structs import TickElem
+from _42labs.cavendish.structs import TickElem
 from _42labs.cavendish.time_series.sorting import mergesort_elements
 
 @view

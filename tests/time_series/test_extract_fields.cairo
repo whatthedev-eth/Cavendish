@@ -3,7 +3,7 @@
 from starkware.cairo.common.alloc import alloc
 
 from _42labs.cavendish.time_series.extract_fields import transform_arr
-from _42labs.cavendish.time_series.structs import TickElem
+from _42labs.cavendish.structs import TickElem
 
 struct DataPoint:
     member timestamp : felt

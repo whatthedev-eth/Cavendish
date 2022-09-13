@@ -5,7 +5,7 @@ from starkware.cairo.common.registers import get_label_location, get_ap
 from starkware.cairo.common.invoke import invoke
 from starkware.cairo.common.memcpy import memcpy
 
-from _42labs.cavendish.time_series.structs import TickElem
+from _42labs.cavendish.structs import TickElem
 
 func transform_arr(
     get_tick_and_value : codeoffset, arr_len : felt, arr : felt*, element_size : felt

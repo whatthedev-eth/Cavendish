@@ -5,9 +5,9 @@ from starkware.cairo.common.math import sqrt
 
 from _42labs.cavendish.time_series.matmul import pairwise_1D, dot_product
 from _42labs.cavendish.time_series.reshape import fill_1d
-from _42labs.cavendish.time_series.structs import TickElem, PAIRWISE_OPERATION
+from _42labs.cavendish.structs import TickElem, PAIRWISE_OPERATION
 from _42labs.cavendish.time_series.scaler import scale_data
-from _42labs.cavendish.time_series.utils import safe_div
+from _42labs.cavendish.utils import safe_div
 
 from _42labs.cavendish.stats.polevl import polevl
 

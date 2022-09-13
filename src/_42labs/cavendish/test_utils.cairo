@@ -1,6 +1,6 @@
 %lang starknet
 
-from _42labs.cavendish.time_series.structs import Matrix2D
+from _42labs.cavendish.structs import Matrix2D
 
 func log_array(arr_len : felt, arr : felt*):
     %{ print('Array(', end='') %}

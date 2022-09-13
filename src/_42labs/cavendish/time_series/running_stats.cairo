@@ -4,7 +4,7 @@ from starkware.cairo.common.bool import TRUE, FALSE
 from starkware.cairo.common.math import unsigned_div_rem, abs_value, sqrt
 from starkware.cairo.common.math_cmp import is_le, is_nn
 
-from _42labs.cavendish.time_series.utils import is_positive, greater_than, safe_div
+from _42labs.cavendish.utils import is_positive, greater_than, safe_div
 
 # https://www.johndcook.com/blog/standard_deviation/
 # https://onlinegdb.com/V6FwrXOKA

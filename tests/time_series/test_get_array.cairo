@@ -8,7 +8,7 @@ from starkware.cairo.common.registers import get_label_location, get_ap
 from starkware.cairo.common.invoke import invoke
 
 from _42labs.cavendish.time_series.get_array import get_ticks_array
-from _42labs.cavendish.time_series.structs import TickElem
+from _42labs.cavendish.structs import TickElem
 
 struct NotTickElem:
     member tick : felt

@@ -6,7 +6,7 @@ from starkware.cairo.common.math import assert_lt, assert_nn, assert_not_zero
 
 from cairo_math_64x61.math64x61 import FixedPoint, ONE
 
-from _42labs.cavendish.time_series.utils import greater_than, less_than
+from _42labs.cavendish.utils import greater_than, less_than
 from _42labs.cavendish.stats.polevl import polevl, p1evl
 
 using Float = felt

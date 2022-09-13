@@ -21,8 +21,8 @@ from _42labs.cavendish.time_series.reshape import (
 from _42labs.cavendish.stats.norm import norm, Float
 from _42labs.cavendish.stats.metrics import sum_array, sum_tick_array, mean, variance, standard_deviation
 from _42labs.cavendish.time_series.scaler import scale_data
-from _42labs.cavendish.time_series.structs import TickElem, Matrix2D, List, PAIRWISE_OPERATION
-from _42labs.cavendish.time_series.utils import modulo, is_positive, greater_than, less_than, are_equal, safe_div
+from _42labs.cavendish.structs import TickElem, Matrix2D, List, PAIRWISE_OPERATION
+from _42labs.cavendish.utils import modulo, is_positive, greater_than, less_than, are_equal, safe_div
 
 from _42labs.cavendish.test_utils import log_matrix, log_array
 
@@ -51,8 +51,8 @@ namespace cavendish:
     from _42labs.cavendish.stats.norm import norm, Float
     from _42labs.cavendish.stats.metrics import sum_array, sum_tick_array, mean, variance, standard_deviation
     from _42labs.cavendish.time_series.scaler import scale_data
-    from _42labs.cavendish.time_series.structs import TickElem, Matrix2D, List, PAIRWISE_OPERATION
-    from _42labs.cavendish.time_series.utils import modulo, is_positive, greater_than, less_than, are_equal, safe_div
+    from _42labs.cavendish.structs import TickElem, Matrix2D, List, PAIRWISE_OPERATION
+    from _42labs.cavendish.utils import modulo, is_positive, greater_than, less_than, are_equal, safe_div
 
     from cairo_math_64x61.math64x61 import ONE, E, PI, FixedPoint
 end

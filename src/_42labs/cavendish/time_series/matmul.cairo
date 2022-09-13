@@ -2,8 +2,8 @@
 
 from starkware.cairo.common.alloc import alloc
 
-from _42labs.cavendish.time_series.structs import Matrix2D, PAIRWISE_OPERATION
-from _42labs.cavendish.time_series.utils import safe_div
+from _42labs.cavendish.structs import Matrix2D, PAIRWISE_OPERATION
+from _42labs.cavendish.utils import safe_div
 
 using ENUM = felt
 

@@ -5,7 +5,7 @@ from starkware.cairo.common.math import unsigned_div_rem
 from starkware.cairo.common.math_cmp import is_le
 from starkware.cairo.common.bool import TRUE, FALSE
 
-from _42labs.cavendish.time_series.structs import TickElem
+from _42labs.cavendish.structs import TickElem
 
 func mergesort_elements{range_check_ptr}(felt_arr_len : felt, felt_arr : TickElem*) -> (
     sorted_entries_ptr : TickElem*

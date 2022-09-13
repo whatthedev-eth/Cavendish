@@ -2,8 +2,8 @@
 
 from starkware.cairo.common.alloc import alloc
 
-from _42labs.cavendish.time_series.structs import Matrix2D
-from _42labs.cavendish.time_series.utils import safe_div, modulo
+from _42labs.cavendish.structs import Matrix2D
+from _42labs.cavendish.utils import safe_div, modulo
 
 using Matrix2DArray = felt**
 

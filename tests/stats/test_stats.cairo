@@ -3,7 +3,7 @@
 from starkware.cairo.common.alloc import alloc
 
 from _42labs.cavendish.prelude import FixedPoint, ONE, sum_tick_array, mean, norm
-from _42labs.cavendish.time_series.structs import TickElem
+from _42labs.cavendish.structs import TickElem
 
 @view
 func test_sum_tick_array{range_check_ptr}():

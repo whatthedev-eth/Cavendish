@@ -6,8 +6,8 @@ from starkware.cairo.common.cairo_builtins import HashBuiltin
 from starkware.cairo.common.registers import get_label_location, get_ap
 from starkware.cairo.common.invoke import invoke
 
-from _42labs.cavendish.time_series.structs import TickElem
-from _42labs.cavendish.time_series.utils import modulo
+from _42labs.cavendish.structs import TickElem
+from _42labs.cavendish.utils import modulo
 
 func get_ticks_array{pedersen_ptr : HashBuiltin*, range_check_ptr}(
     get_tick : codeoffset,

@@ -4,7 +4,7 @@ from cairo_math_64x61.math64x61 import ONE, E, PI, FixedPoint
 from starkware.cairo.common.math import abs_value, sign, assert_not_zero
 
 from _42labs.cavendish.stats.ndtri import ONE_HALF, ndtri
-from _42labs.cavendish.time_series.utils import less_than
+from _42labs.cavendish.utils import less_than
 
 using Float = felt
 
